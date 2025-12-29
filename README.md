@@ -1,5 +1,14 @@
-# CloudLink Python
-This is the original, Python-based codebase for CloudLink server.
+# CloudLink Python Docker Image
+This is the original, Python-based codebase for CloudLink server, As a docker image.
+
+To run:
+Clone the git repo and build the docker image yourself.
+cd into the directory and run
+```
+docker build -t ikelene/cloudlink-server:latest .
+```
+Then in your docker app, the image will appear.
+Or it will be available to use in the terminal if you prefer that.
 
 ## 💡 Features 💡
 
@@ -61,3 +70,4 @@ myplugin(server, clpv4)
 # Start the server!
 server.run()
 ```
+
