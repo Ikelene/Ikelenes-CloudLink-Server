@@ -89,4 +89,5 @@ if __name__ == "__main__":
     # server.enable_ssl(certfile="cert.pem", keyfile="privkey.pem")
     
     # Start the server
-    server.run(ip="ikelene.github.io", port=3000)
+    server.run(ip="0.0.0.0", port=3000)
+
